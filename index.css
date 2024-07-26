@@ -1,0 +1,280 @@
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.khung_tieude {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #D7344C;
+    height: 10vh;
+}
+.a{
+    box-shadow: 0px 0px 1px 0px #AAA;
+    border: #888 solid;
+    display: flex;
+    justify-content: center;
+}
+.ll{
+    height: 100%;
+    width: 90%;
+}
+
+.khung_danhmuc, .khung_xemgia, .khung_dangnhap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.khung_tieudenho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 95%;
+    margin-right: 190px;
+}
+.nut_dangnhap{
+    padding: 10px 0;
+    color: #fff;
+    border: none;
+    width: 100px;
+    height: 8px;
+    border-radius: 10px;
+    font-size: 12px;
+    display: flex;
+  flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img_dangnhap{
+    height: 30px;
+    width: 30px;
+}
+
+.nut_danhmuc {
+    padding: 10px 0;
+    color: #fff;
+    background-color: #e84949;
+    border: none;
+    width: 100px;
+    height: 100%;
+    border-radius: 10px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_danhmuc, .img_timkiem, .img_sau {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.khung_timkiem {
+    background-color: white;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    width: 30%;
+    height: 25px;
+}
+.khung_timkiem > input{
+    height: 25px;
+    width: 80%;
+    border: 0;
+    outline: none;
+}
+
+.tim_kiem {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #000;
+}
+.Chontheotieuchi{
+    border: 1px rgb(228, 227, 227) solid;
+    border-radius: 7px;
+    background-color: #F3F4F6;
+}
+
+.nut_goi {
+    padding: 10px 0;
+    color: #fff;
+    border: none;
+    width: 100px;
+    height: 100%;
+    border-radius: 10px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.thanh_dieu_huong {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    height: 4vh;
+    font-size: 1rem;
+    padding: 0 10px;
+}
+
+.trangchu_muc {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.khung_noidung {
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.loai_sanpham, .chon_tieuchi, .sap_xep {
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+.loai_sanpham {
+    display: flex;
+}
+
+.nut_loai {
+    background-color: #fff;
+    border: 1px solid #b5aeee;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.chon_tieuchi h2, .sap_xep h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.chon_tieuchi_noidung, .sap_xep_noidung {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin: 5px;
+}
+
+.khung_sanpham {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+}
+.description{
+    padding: 5px;
+}
+.sanpham {
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    width: 19%; 
+    height: 80%;
+    box-sizing: border-box; 
+}
+.discount{
+    position: absolute;
+    padding:5px ;
+    color: white;
+    border-radius: 0 10px 10px 0;
+    text-align: center;
+    background-color: red;
+    height:20px ;
+    width: 70px;
+    font-size: 15px;
+    font:  sans-serif;
+}
+.khung_dienthoai {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    padding-top: 10px;
+}
+
+.hinh_anh_dienthoai {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.khung_thongso {
+    display: flex;
+    gap: 5px;
+}
+
+.gia {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gia_sanpham {
+    color: #ff0000;
+    font-size: 1.2rem;
+    font:  sans-serif;
+}
+
+.khung_giamgia {
+    display: flex;
+    justify-content: space-between;
+}
+
+.thong_tin {
+    background-color: #ddd;
+    padding: 2px;
+    border: 1px solid #d0d0d0;
+    border-radius: 7px;
+}
+
+.khung_sao {
+    display: flex;
+}
+
+.hinh_sao img {
+    margin-top: 5px;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.gia_cu {
+    text-decoration: line-through;
+    color: #888;
+    padding-top: 5px;
+    margin-top: 15px;
+    margin-right: 75px;
+}
+.t{
+    margin-right: 25px;
+    color: red;
+    font-size: 15px;
+    padding-top: 10px;
+}
+.khungtragop{
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.trgop{ 
+    font:  sans-serif;
+    width: 70px;
+    font-size: 10px;
+    border-radius: 8px;
+    color: #0953B7;
+    border: #98A3D8 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
